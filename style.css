@@ -11,7 +11,7 @@ video{
     height: 100%;
     object-fit: cover;
     object-position: center;
-    
+    filter: blur(5px);
 }
 .heading{
     position: absolute;
@@ -20,6 +20,6 @@ video{
     transform: translate(-50%,-50%);
     text-align: center;
     white-space: nowrap;
-    color: rgba(255,255,255,0.5);
+    color: #FFF;
     mix-blend-mode: overlay;
 }
